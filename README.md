@@ -1,113 +1,77 @@
-# TC3041 Proyecto Final Primavera 2020
+# Reto Semana Tec
 
-# *[Poner aquí el Título del Proyecto]*
+# Herramientas computacionales: maestros de la analítica
 ---
 
 ##### Integrantes:
-1. *[Poner aquí Nombre y Apellidos del integrante 1]* - *[Poner aquí su Matrícula]* - *[Poner aquí su campus]*
-2. *[Poner aquí Nombre y Apellidos del integrante 2]* - *[Poner aquí su Matrícula]* - *[Poner aquí su campus]*
-3. *[Poner aquí Nombre y Apellidos del integrante 3]* - *[Poner aquí su Matrícula]* - *[Poner aquí su campus]*
-4. *[Poner aquí Nombre y Apellidos del integrante 4]* - *[Poner aquí su Matrícula]* - *[Poner aquí su campus]*
+1. *[Poner aquí Nombre y Apellidos del integrante 1]* - *[Poner aquí su Matrícula]* 
+2. *[Poner aquí Nombre y Apellidos del integrante 2]* - *[Poner aquí su Matrícula]* 
+3. *[Poner aquí Nombre y Apellidos del integrante 3]* - *[Poner aquí su Matrícula]* 
+4. *[Poner aquí Nombre y Apellidos del integrante 4]* - *[Poner aquí su Matrícula]*
+5. *[Poner aquí Nombre y Apellidos del integrante 4]* - *[Poner aquí su Matrícula]*
 
 ---
-## 1. Aspectos generales
+## Bienvenida
 
-Las orientaciones del proyecto se encuentran disponibles en la plataforma **Canvas**.
+De acuerdo a DOMO (empresa de software en la nube con sede en American Fork, Utah, Estados Unidos.), en 2017 se generaban por día 2.5 quintillones de bytes en datos. Aunque no todos estos datos son relevantes, existe mucha información que se puede extraer de estos. Debido a la cantidad, un analista humano no es capaz de hacer el análisis de estos datos, por lo que tiene que recurrir a herramientas computacionales.
 
-Este documento es una guía sobre qué información debe entregar como parte del proyecto, qué requerimientos técnicos debe cumplir y la estructura que debe seguir para organizar su entrega.
+En esta semana Tec aprenderás los fundamentos del análisis de datos, incluyendo algunas herramientas básicas que te permitirán obtener una idea rápida de cómo están compuestos los datos y resolver algunas preguntas acerca de ellos.
 
-### 1.1 Requerimientos técnicos
+Te invitamos a explotar al máximo las actividades a desarrollar, así como a preguntar todas las dudas que tengas, para que puedas obtener las habilidades fundamentales que seguro te serán de mucha ayuda en tu vida profesional.
 
-A continuación se mencionan los requerimientos técnicos mínimos del proyecto, favor de tenerlos presente para que cumpla con todos.
+Este documento es una guía sobre los entregables del reto y la estructura que debe seguir para organizar su entrega.
 
-* El equipo tiene la libertad de elegir las tecnologías de desarrollo a utilizar en el proyecto, sin embargo, debe tener presente que la solución final se deberá ejecutar en una plataforma en la nube. Puede ser  [Google Cloud Platform](https://cloud.google.com/?hl=es), [Azure](https://azure.microsoft.com/en-us/) o AWS [AWS](https://aws.amazon.com/es/free/).
-* El proyecto debe utilizar al menos dos modelos de bases de datos diferentes, de los estudiados en el curso.
-* La solución debe utilizar una arquitectura de microservicios. Si no tiene conocimiento sobre este tema, le recomiendo la lectura [*Microservices*](https://martinfowler.com/articles/microservices.html) de [Martin Fowler](https://martinfowler.com).
-* La arquitectura debe ser modular, escalable, con redundancia y alta disponibilidad.
-* La arquitectura deberá estar separada claramente por capas (*frontend*, *backend*, *API RESTful*, datos y almacenamiento).
-* Los diferentes componentes del proyecto (*frontend*, *backend*, *API RESTful*, bases de datos, entre otros) deberán ejecutarse sobre contenedores [Docker](https://www.docker.com/) y utilizar [Kubernetes](https://kubernetes.io/) como orquestador.
-* Todo el código, *datasets* y la documentación del proyecto debe alojarse en este repositorio de GitHub siguiendo la estructura que aparece a continuación.
+### Estructura del repositorio
 
-### 1.2 Estructura del repositorio
-El proyecto debe seguir la siguiente estructura de carpetas:
+Debe respetar la siguiente estructura de carpetas:
 ```
-- / 			        # Raíz de todo el proyecto
-    - README.md			# Archivo con los datos del proyecto (este archivo)
-    - frontend			# Carpeta con la solución del frontend (Web app)
-    - backend			# Carpeta con la solución del backend (CMS)
-    - api			# Carpeta con la solución de la API
-    - datasets		        # Carpeta con los datasets y recursos utilizados (csv, json, audio, videos, entre otros)
-    - dbs			# Carpeta con los modelos, catálogos y scripts necesarios para generar las bases de datos
-    - docs			# Carpeta con la documentación del proyecto
-        - stage_f               # Documentos de la entrega final
-        - manuals               # Manuales y guías
+- / 			        # Raíz de todo el reto
+    - README.md			# Archivo con la información del reto (este archivo)
+    - entregables			# Carpeta con los entregables del reto
+    - datasets		        # Carpeta con los datasets y recursos a utilizar
 ```
 
-### 1.3 Documentación  del proyecto
+## Actividades y Entregables 
 
-Como parte de la entrega final del proyecto, se debe incluir la siguiente información:
+### Actividad 1. Repositorio
 
-* Justificación de los modelo de *bases de datos* que seleccionaron.
-* Descripción del o los *datasets* y las fuentes de información utilizadas.
-* Guía de configuración, instalación y despliegue de la solución en la plataforma en la nube  seleccionada.
-* Documentación de la API. Puede ver un ejemplo en [Swagger](https://swagger.io/). 
-* El código debe estar documentado siguiendo los estándares definidos para el lenguaje de programación seleccionado.
+#### ¿Qué tengo que hacer?
 
-## 2. Descripción del proyecto
+1. Si aún no tienes una cuenta en Github, créala con el correo electrónico de tu preferencia.
+2. Utilizando el comando `git clone`, clona este repositorio a tu computadora local. En este repositorio, dentro de la carpeta *datasets* encontrarás los conjuntos de datos a utilizar durante el reto.
+3. Utilizando un editor de texto como `nano`, edita este archivo y agrega en la sección correspondiente que se encuentra al inicio, los nombres y matrículas de los miembros del equipo.
+5. Utilizando los comandos `git commit` y `git push`, actualiza los cambios en el repositorio de GitHub.
+6. Captura una pantalla por cada uno de los pasos anteriores, donde se aprecien los comandos utilizados y las operaciones realizadas.
 
-*[Incluya aquí la descripción del proyecto seleccionado.]*
+#### Entregables 
 
-## 3. Solución
+1. Confecciona un documento con las capturas de pantalla de los pasos realizados.
+2. Nombra el documento [Actividad_1.pdf](entregables/Actividad_1.pdf) y adiciónalo a la carpeta *entregables* de este repositorio.
+3. Utilizando los comandos `git commit` y `git push`, actualiza los cambios en el repositorio de GitHub.
 
-A continuación aparecen descritos los diferentes elementos que forman parte de la solución del proyecto.
+### Actividad 2. Obtención de estadísticas descriptivas
 
-### 3.1 Modelos de *bases de datos* utilizados
+#### ¿Qué tengo que hacer?
 
-*[Incluya aquí una explicación del análisis realizado y la justificación de los modelos de *bases de datos* seleccionados. Incluya todo lo que considere necesario para que una persona sin conocimientos técnicos pueda entender de que trata su solución.]*
+En esta actividad trabajarás con el conjunto de datos asignado para el reto, el cual puedes encontrar en la carpeta *entregables* de este repositorio. Tienes que replicar los pasos vistos durante las horas de salón.
+1. Crea un archivo de Jupyter Notebook y nómbralo [Procesamiento.]
+Carga los datos usando tu lector de csv o con pandas. Es recomendable hacerlo con pandas.
+Verifica la cantidad de datos que se tienen, las variables que contiene cada vector de datos e identifica el tipo de variables.
+Analiza las variables para saber qué representa cada una y en qué rangos se encuentran. Si la descripción del problema no te lo indica, utiliza el máximo y el mínimo para encontrarlo.
+Basándose en la media, mediana y desviación estándar de cada variable, qué conclusiones puedes entregar de los datos.
 
-### 3.2 Arquitectura de la solución
 
-*[Incluya aquí un diagrama donde se aprecie la arquitectura de la solución propuesta, así como la interacción entre los diferentes componentes de la misma.]*
+1. Si aún no tienes una cuenta en Github, créala con el correo electrónico de tu preferencia.
+2. Utilizando el comando `git clone`, clona este repositorio a tu computadora local. En este repositorio, dentro de la carpeta *datasets* encontrarás los conjuntos de datos a utilizar durante el reto.
+3. Utilizando un editor de texto como `nano`, edita este archivo y agrega en la sección correspondiente que se encuentra al inicio, los nombres y matrículas de los miembros del equipo.
+5. Utilizando los comandos `git commit` y `git push`, actualiza los cambios en el repositorio de GitHub.
+6. Captura una pantalla por cada uno de los pasos anteriores, donde se aprecien los comandos utilizados y las operaciones realizadas.
 
-### 3.3 Frontend
+#### Entregables 
 
-*[Incluya aquí una explicación de la solución utilizada para el frontend del proyecto. No olvide incluir las ligas o referencias donde se puede encontrar información de los lenguajes de programación, frameworks y librerías utilizadas.]*
-
-#### 3.3.1 Lenguaje de programación
-#### 3.3.2 Framework
-#### 3.3.3 Librerías de funciones o dependencias
-
-### 3.4 Backend
-
-*[Incluya aquí una explicación de la solución utilizada para el backend del proyecto. No olvide incluir las ligas o referencias donde se puede encontrar información de los lenguajes de programación, frameworks y librerías utilizadas.]*
-
-#### 3.4.1 Lenguaje de programación
-#### 3.4.2 Framework
-#### 3.4.3 Librerías de funciones o dependencias
-
-### 3.5 API
-
-*[Incluya aquí una explicación de la solución utilizada para implementar la API del proyecto. No olvide incluir las ligas o referencias donde se puede encontrar información de los lenguajes de programación, frameworks y librerías utilizadas.]*
-
-#### 3.5.1 Lenguaje de programación
-#### 3.5.2 Framework
-#### 3.5.3 Librerías de funciones o dependencias
-
-*[Incluya aquí una explicación de cada uno de los endpoints que forman parte de la API. Cada endpoint debe estar correctamente documentado.]*
-
-*[Por cada endpoint debe incluir lo siguiente:]*
-
-* **Descripción**:
-* **URL**:
-* **Verbos HTTP**:
-* **Headers**:
-* **Formato JSON del cuerpo de la solicitud**: 
-* **Formato JSON de la respuesta**:
-* **Códigos de error**:
-
-## 3.6 Pasos a seguir para utilizar el proyecto
-
-*[Incluya aquí una guía paso a paso para poder utilizar el proyecto, desde la clonación del repositorio hasta el despliegue de la solución en una plataforma en la nube.]*
+1. Confecciona un documento con las capturas de pantalla de los pasos realizados.
+2. Nombra el documento [Actividad_1.pdf](entregables/Actividad_1.pdf) y adiciónalo a la carpeta *entregables* de este repositorio.
+3. Utilizando los comandos `git commit` y `git push`, actualiza los cambios en el repositorio de GitHub.
 
 ## 4. Referencias
 
