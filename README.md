@@ -78,7 +78,7 @@ En esta actividad trabajarás con el conjunto de datos asignado para el reto, el
 3. Utilizando el comando `cp` crea una copia del archivo [Actividad_2.ipynb](entregables/Actividad_2.ipynb) y nómbralo [Actividad_3.ipynb](entregables/Actividad_3.ipynb).
 4. Adiciona al archivo de esta actividad el código necesario para realizar el análisis de las variables usando diagramas de cajas y bigotes, histogramas y mapas de calor.
 5. Incorpora dentro del archivo de Jupyter Notebook los bloques de texto necesarios para documentar cada bloque de código.
-6. Adicona un bloque de texto en el cuál respondas las siguientes preguntas:
+6. Adiciona un bloque de texto en el cuál respondas las siguientes preguntas:
     - ¿Hay alguna variable que no aporta información?
     - Si tuvieras que eliminar variables, ¿cuáles quitarías y por qué?
     - ¿Existen variables que tengan datos extraños?
@@ -90,6 +90,46 @@ En esta actividad trabajarás con el conjunto de datos asignado para el reto, el
 
 1. En GitHub debe quedar actualizado el archivo [Actividad_3.ipynb](entregables/Actividad_3.ipynb), incluyendo en el mismo todo el código programado, así como los bloques de texto explicando en cada paso como ejecutarlos, su interpretación de los resultados y las respuestas a las preguntas planteadas.
 
-## 4. Referencias
+### Actividad 4. Modelos de *Machine Learning*
 
-*[Incluya aquí las referencias a sitios de interés, datasets y cualquier otra información que haya utilizado para realizar el proyecto y que le puedan ser de utilidad a otras personas que quieran usarlo como referencia]*
+#### ¿Qué tengo que hacer?
+
+En esta actividad trabajarás con diferentes modelos de *Machine Learning* para clasificación, predicciones y/o encontrar patrones con los datos. Tienes que replicar los pasos vistos durante las horas de salón.
+
+1. Abre una Terminal.
+2. Utilizando el comando `cd` cámbiate a la carpeta *entregables* del repositorio local.
+3. Utilizando el comando `cp` crea una copia del archivo [Actividad_3.ipynb](entregables/Actividad_3.ipynb) y nómbralo [Actividad_4.ipynb](entregables/Actividad_4.ipynb).
+4. Adiciona al archivo de esta actividad el código necesario para realizar una regresión lineal, una clasificación y/o un análisis de patrones con K-means.
+5. Incorpora dentro del archivo de Jupyter Notebook los bloques de texto necesarios para documentar cada bloque de código.
+6. Adiciona un bloque de texto en el cuál respondas las siguientes preguntas:
+    - Regresión
+        * ¿Cuáles son las variables significativas?
+        * ¿Cuál es la variable objetivo a predecir?
+        * ¿Cuántas variables categóricas tienes? ¿Qué conversión realizas para poder utilizar las variables categóricas?
+        * ¿Qué otras variables propones para mejorar la predicción? Justifica cada una de ellas
+        * ¿Qué tasa de error obtuviste?
+        * ¿Tu modelo es bueno o es malo? ¿Por qué?
+    - Clasificación
+        * ¿Cuáles son las variables significativas?
+        * ¿Cuál es la variable objetivo a clasificar? ¿Cuáles son las clases de salida?
+        * Interprete su matriz de confusión y escriba sus apreciaciones
+        * ¿El modelo está sobrecargado a alguna clase? ¿De ser así, cuál es la mejor medida a utilizar: accuracy, precision o recall? Justifique su respuesta
+        * ¿Qué valores obtuviste para accuracy, precision o recall?
+        * ¿Tu modelo es bueno o es malo? ¿Por qué?
+    - K-means
+        * ¿Crees que estos centros puedan ser representativos de los datos? ¿Por qué?
+        * ¿Cómo obtuviste el valor de k a usar?
+        * ¿Los centros serían más representativos si usaras un valor más alto? ¿Más bajo?
+        * ¿Qué distancia tienen los centros entre sí? ¿Hay alguno que esté muy cercano a otros?
+        * ¿Qué pasaría con los centros si tuviéramos muchos outliers en el análisis de cajas y bigotes?
+        * ¿Qué puedes decir de los datos basándose en los centros?
+
+7. Utilizando los comandos  `git add`, `git commit` y `git push`, actualiza los cambios en el repositorio de GitHub.
+
+#### Entregables 
+
+1. En GitHub debe quedar actualizado el archivo [Actividad_4.ipynb](entregables/Actividad_4.ipynb), incluyendo en el mismo todo el código programado, así como los bloques de texto explicando en cada paso como ejecutarlos, su interpretación de los resultados y las respuestas a las preguntas planteadas.
+
+## 5. Referencias
+
+*[Incluya aquí las referencias a sitios de interés, datasets y cualquier otra información que haya utilizado para realizar el reto y que le puedan ser de utilidad a otras personas que quieran usarlo como referencia]*
