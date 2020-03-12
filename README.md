@@ -47,7 +47,7 @@ Debe respetar la siguiente estructura de carpetas:
 
 1. Confecciona un documento con las capturas de pantalla de los pasos realizados.
 2. Nombra el documento [Actividad_1.pdf](entregables/Actividad_1.pdf) y adiciónalo a la carpeta *entregables* de este repositorio.
-3. Utilizando los comandos `git commit` y `git push`, actualiza los cambios en el repositorio de GitHub.
+3. Utilizando los comandos `git add`, `git commit` y `git push`, actualiza los cambios en el repositorio de GitHub.
 
 ### Actividad 2. Obtención de estadísticas descriptivas
 
@@ -55,18 +55,40 @@ Debe respetar la siguiente estructura de carpetas:
 
 En esta actividad trabajarás con el conjunto de datos asignado para el reto, el cual puedes encontrar en la carpeta *entregables* de este repositorio. Tienes que replicar los pasos vistos durante las horas de salón.
 
-1. Crea un archivo de Jupyter Notebook y nómbralo [Actividad_2.ipynb](entrenamiento/Actividad_2.ipynb) y adiciónalo a la carpeta *entregables* de este repositorio. Adiciona al archivo el código necesario para realizar las siguientes acciones.
+1. Crea un archivo de Jupyter Notebook y nómbralo [Actividad_2.ipynb](entregables/Actividad_2.ipynb) y adiciónalo a la carpeta *entregables* de este repositorio. Adiciona al archivo el código necesario para realizar las siguientes acciones.
 2. Carga el *dataset* usando tu lector de CSV o con Pandas. Es recomendable hacerlo con Pandas.
 3. Verifica la cantidad de datos que se tienen, las variables que contiene cada vector de datos e identifica el tipo de variables.
 4. Analiza las variables para saber qué representa cada una y en qué rangos se encuentran. Si la descripción del problema no te lo indica, utiliza el máximo y el mínimo para encontrarlo.
 5. Basándose en la media, mediana y desviación estándar de cada variable, ¿qué conclusiones puedes entregar de los datos?.
 6. Incorpora dentro del archivo de Jupyter Notebook los bloques de texto necesarios para dar respuesta a las preguntas planteadas.
-7. Utilizando los comandos `git commit` y `git push`, actualiza los cambios en el repositorio de GitHub.
+7. Utilizando los comandos  `git add`, `git commit` y `git push`, actualiza los cambios en el repositorio de GitHub.
 
 #### Entregables 
 
-1. En GitHub debe quedar actualizado el archivo [Actividad_2.ipynb](entrenamiento/Actividad_2.ipynb), incluyendo en el mismo todo el código programado, así como los bloques de texto explicando en cada paso como ejecutarlos, su interpretación de los resultados y las respuestas a las preguntas.
+1. En GitHub debe quedar actualizado el archivo [Actividad_2.ipynb](entregables/Actividad_2.ipynb), incluyendo en el mismo todo el código programado, así como los bloques de texto explicando en cada paso como ejecutarlos, su interpretación de los resultados y las respuestas a las preguntas.
 
+### Actividad 3. Mapas de calor y boxplots
+
+#### ¿Qué tengo que hacer?
+
+En esta actividad trabajarás con el conjunto de datos asignado para el reto, el cual puedes encontrar en la carpeta *entregables* de este repositorio. Tienes que replicar los pasos vistos durante las horas de salón.
+
+1. Abre una Terminal.
+2. Utilizando el comando `cd` cámbiate a la carpeta *entregables* del repositorio local.
+3. Utilizando el comando `cp` crea una copia del archivo [Actividad_2.ipynb](entregables/Actividad_2.ipynb) y nómbralo [Actividad_3.ipynb](entregables/Actividad_3.ipynb).
+4. Adiciona al archivo de esta actividad el código necesario para realizar el análisis de las variables usando diagramas de cajas y bigotes, histogramas y mapas de calor.
+5. Incorpora dentro del archivo de Jupyter Notebook los bloques de texto necesarios para documentar cada bloque de código.
+6. Adicona un bloque de texto en el cuál respondas las siguientes preguntas:
+    - ¿Hay alguna variable que no aporta información?
+    - Si tuvieras que eliminar variables, ¿cuáles quitarías y por qué?
+    - ¿Existen variables que tengan datos extraños?
+    - Si comparas las variables, ¿todas están en rangos similares? ¿Crees que esto afecte?
+    - ¿Puedes encontrar grupos que se parezcan? ¿Qué grupos son estos?
+7. Utilizando los comandos  `git add`, `git commit` y `git push`, actualiza los cambios en el repositorio de GitHub.
+
+#### Entregables 
+
+1. En GitHub debe quedar actualizado el archivo [Actividad_3.ipynb](entregables/Actividad_3.ipynb), incluyendo en el mismo todo el código programado, así como los bloques de texto explicando en cada paso como ejecutarlos, su interpretación de los resultados y las respuestas a las preguntas planteadas.
 
 ## 4. Referencias
 
