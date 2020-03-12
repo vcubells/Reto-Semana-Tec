@@ -130,6 +130,21 @@ En esta actividad trabajarás con diferentes modelos de *Machine Learning* para 
 
 1. En GitHub debe quedar actualizado el archivo [Actividad_4.ipynb](entregables/Actividad_4.ipynb), incluyendo en el mismo todo el código programado, así como los bloques de texto explicando en cada paso como ejecutarlos, su interpretación de los resultados y las respuestas a las preguntas planteadas.
 
-## 5. Referencias
+### Actividad 5. Presentación y video
+
+#### ¿Qué tengo que hacer?
+
+1. Prepara una presentación en PowerPoint para exponer frente al grupo, donde muestres tus datos, los análisis ejecutados y los resultados obtenidos. 
+2. Nombra la presentación [Actividad_5.pptx](entregables/Actividad_5.pptx) y adiciónala a la carpeta *entregables* de este repositorio.
+3. Graba un video de máximo 4 minutos, donde cada integrante debe hablar de la parte que realizó, así como describir los resultados y cambios hechos. Sube el video a la carpeta *entregables* de este repositorio con el nombre [Actividad_5.mp4](entregables/Actividad_5.mp4).
+4. Utilizando los comandos `git add`, `git commit` y `git push`, actualiza los cambios en el repositorio de GitHub.
+
+#### Entregables 
+
+1. En GitHub deben quedar actualizados los archivos de la [presentación](entregables/Actividad_5.pptx) y el [video](entregables/Actividad_5.mp4). 
+2. Con las preguntas y retroalimentaciones obtenidas, haz los cambios pertinentes en tus entregables del reto.
+3. Utilizando los comandos `git commit` y `git push`, actualiza los archivos modificados, en el repositorio de GitHub.
+
+## 6. Referencias
 
 *[Incluya aquí las referencias a sitios de interés, datasets y cualquier otra información que haya utilizado para realizar el reto y que le puedan ser de utilidad a otras personas que quieran usarlo como referencia]*
